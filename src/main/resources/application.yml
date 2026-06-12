@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: monitoreo-app
+  thymeleaf:
+    cache: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
